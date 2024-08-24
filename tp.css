@@ -2,6 +2,22 @@ body {
     background-color: #E8D9CD;
     margin: auto;
 }
+.navbar {
+	background-color: #223030;
+	overflow: hidden;
+}
+.navbar a {
+  float: left;
+  color: #EFEFE9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+	background-color: #959D90;
+	color: #523D35;
+}
 hr{
 	border: 3px solid #523D35;
 }
@@ -77,16 +93,24 @@ img {
     display: flex; 
     justify-content: center;
     margin-top: 10px;
+	background: transparent;
+}
+a{
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: green;
 }
 .overlay_ko:hover > * {
     transform: translateY(20px);
     transition: 0.5s;
 }
-
 .member:hover .overlay_ko {
     opacity: 1;
 }
-
 .title {
     font-size: 24px;
     font-weight: bold;
