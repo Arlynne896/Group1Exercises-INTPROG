@@ -45,7 +45,7 @@ h1 {
 
 .box {
     display: inline-block;
-    border: 1rem solid #523D35;
+    border: 5px solid #523D35;
     padding: 1rem;
     vertical-align: middle;
     border-radius: 20px;
