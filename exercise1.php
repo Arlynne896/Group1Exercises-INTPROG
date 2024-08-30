@@ -14,13 +14,14 @@
 	
 	<nav>
 		<div class="navbar">
-               <a href="homepage.htm">Home</a>
-               <class="nav"><a href="exercise 1.htm">Our Team</a>
-               <class="nav"><a href="about.htm">About</a>
-			   <class="nav"><a href="certif.htm">Certificates</a>
-			   <class="nav"><a href="port.htm">Portfolio</a>
-			   <class="nav"><a href="project.htm">Our Projects</a>
-			   <class="nav"><a href="contact.htm">Contact Us</a>
+               <a href="homepage.htm"><?php echo "Home" ?></a>
+               <class="nav"><a href="practice.php"><?php echo "Our Team" ?></a>
+               <class="nav"><a href="about.htm"><?php echo "About" ?></a>
+			   <class="nav"><a href="certif.htm"><?php echo "Certificates" ?></a>
+			   <class="nav"><a href="port.htm"><?php echo "Portfolio" ?></a>
+			   <class="nav"><a href="project.htm"><?php echo "Our Project" ?></a>
+			   <class="nav"><a href="contact.htm"><?php echo "Contact Us" ?></a>
+               <class="nav"><a href="merch.php"><?php echo "Merch" ?></a>
 		</div>
 	</nav>
     <div class="header">
