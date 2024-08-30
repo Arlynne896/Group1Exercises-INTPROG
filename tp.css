@@ -125,11 +125,13 @@ color: green;
 }
 
 .text {
-  font-size: 16px;
-  margin-top: 0.25em; 
+    font-size: 16px;
+    margin-top: 0.25em;
 }
-
-
+.merch{
+  max-width: 300px;
+  height: 300px;
+}
 input {
   border-radius: 7px;
   width:50px;
@@ -138,7 +140,6 @@ input {
   padding-top: 5px;
 }
 /*
-
 * - universal selector
 p h1 - element selector
 #id .class - descendant combinator
@@ -146,12 +147,4 @@ p h1 - element selector
 a:hover - pseudo-class selector
 
 h1, p, h2 - group selector
-
-
-
-
-
-
-
-
 */
