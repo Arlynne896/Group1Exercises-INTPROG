@@ -20,7 +20,7 @@
 		
         <div class="navbar">
                <a href="homepage.htm"><?php echo "Home" ?></a>
-               <class="nav"><a href="practice.php"><?php echo "Our Team" ?></a>
+               <class="nav"><a href="exercise1.php"><?php echo "Our Team" ?></a>
                <class="nav"><a href="about.htm"><?php echo "About" ?></a>
 			   <class="nav"><a href="certif.htm"><?php echo "Certificates" ?></a>
 			   <class="nav"><a href="port.htm"><?php echo "Portfolio" ?></a>
