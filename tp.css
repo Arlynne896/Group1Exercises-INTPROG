@@ -120,3 +120,23 @@ a:hover {
     font-size: 16px;
     margin-top: 0.25em;
 }
+.merch{
+  max-width: 300px;
+  height: 300px;
+}
+input {
+  border-radius: 7px;
+  width:50px;
+
+  padding-left: 50px;
+  padding-top: 5px;
+}
+/*
+* - universal selector
+p h1 - element selector
+#id .class - descendant combinator
+#id > .class - inner child selector
+a:hover - pseudo-class selector
+
+h1, p, h2 - group selector
+*/
