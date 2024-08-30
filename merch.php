@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
   
     <title>Group Exercise #1</title>
-<<<<<<< HEAD
     <link href="tp.css" rel="stylesheet"/>
-=======
-    <link href="gege.css" rel="stylesheet"/>
->>>>>>> e7fa086fc9859b074c3482909e2127b0f21f1753
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
