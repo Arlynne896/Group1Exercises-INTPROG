@@ -117,9 +117,9 @@ function umbrella()
                <class="nav"><a href="about.htm">About</a>
 			   <class="nav"><a href="certif.htm">Certificates</a>
 			   <class="nav"><a href="port.htm">Portfolio</a>
-			   <class="nav"><a href="project.htm">Our Projects</a>;
-			   <class="nav"><a href="contact.htm">Contact Us</a>;
-               <class="nav"><a href="merch.php">Merch</a>;
+			   <class="nav"><a href="project.htm">Our Projects</a>
+			   <class="nav"><a href="contact.htm">Contact Us</a>
+               <class="nav"><a href="merch.php">Merch</a>
 		</div>
 	</nav>
     
