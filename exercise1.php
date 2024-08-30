@@ -49,13 +49,8 @@
             <div class="member">
                 <img src="baby.jpg" alt="angelica">
                 <div class="overlay_ko">
-<<<<<<< HEAD
                     <div class="title"><?php echo "Angelica D. Almaida <br> Role: Designer" ?></div>
                     <p class="text"><?php echo "No Sense, Makes Sense" ?></p>
-=======
-                    <div class="title">Angelica D. Almaida <br> Role: Lead Designer</div>
-                    <p class="text">No Sense, Makes Sense</p>
->>>>>>> e7fa086fc9859b074c3482909e2127b0f21f1753
 					<div class="icon-container">
 						<a class="fa fa-facebook" href="https://www.facebook.com/search/top?q=jose%20emmanuel%20rivas"></a>
 						<a class="fa fa-twitter" href="https://twitter.com/"></a>
@@ -69,13 +64,8 @@
             <div class="member">
                 <img src="kent.jpg" alt="kentc">
                 <div class="overlay_ko">
-<<<<<<< HEAD
                     <div class="title"><?php echo "Kent Miller Catimbang<br> Role: Patutie" ?></div>
                     <p class="text"><?php echo "GRavvvyyy" ?></p>
-=======
-                    <div class="title">Kent Miller Catimbang<br> Role: Designer</div>
-                    <p class="text">GRavvvyyy</p>
->>>>>>> e7fa086fc9859b074c3482909e2127b0f21f1753
                     <div class="icon-container">
 						<a class="fa fa-facebook" href="https://www.facebook.com/search/top?q=jose%20emmanuel%20rivas"></a>
 						<a class="fa fa-twitter" href="https://twitter.com/"></a>
