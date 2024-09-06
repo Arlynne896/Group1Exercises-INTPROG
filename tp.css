@@ -29,14 +29,14 @@ border: 3px solid #523D35;
 
 h1 {
   text-align: center;
-font-family: georgia;
+  font-family: georgia;
   margin-top: 0;
   padding-top: 19px;
 }
 
 .container {
   border: 8px solid #523D35;
-background-color: #BBA58F;
+  background-color: #BBA58F;
   margin: 1rem;
   padding: 2rem;
   text-align: center;

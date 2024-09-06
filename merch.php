@@ -114,7 +114,7 @@ function umbrella()
 		<div class="navbar">
                <a href="homepage.htm">Home</a>
                <class="nav"><a href="exercise1.php">Our Team</a>
-               <class="nav"><a href="about.htm">About</a>
+               <class="nav"><a href="about.php">About Us</a>
 			   <class="nav"><a href="certif.htm">Certificates</a>
 			   <class="nav"><a href="port.htm">Portfolio</a>
 			   <class="nav"><a href="project.htm">Our Projects</a>
