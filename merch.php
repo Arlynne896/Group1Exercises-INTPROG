@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
   
-    <title>Group Exercise #1</title>
+    <title>Group Exercise #2</title>
     <link href="tp.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -98,14 +98,6 @@ function umbrella()
   }
 }
 
-
-
-
-
-
-
-
-
      </script>
 
 
@@ -114,17 +106,16 @@ function umbrella()
 		<div class="navbar">
                <a href="homepage.htm">Home</a>
                <class="nav"><a href="exercise1.php">Our Team</a>
-               <class="nav"><a href="about.php">About Us</a>
 			   <class="nav"><a href="certif.htm">Certificates</a>
 			   <class="nav"><a href="port.htm">Portfolio</a>
 			   <class="nav"><a href="project.htm">Our Projects</a>
-			   <class="nav"><a href="contact.htm">Contact Us</a>
                <class="nav"><a href="merch.php">Merch</a>
+			   <class="nav"><a href="contact.php">Contact Us</a>
 		</div>
 	</nav>
     
     <div class="header">
-        <h1>BSIT-3M Group 1<br>Merchandise</h1>
+        <h1>Group 1<br>Merchandise</h1>
     </div>
 
 

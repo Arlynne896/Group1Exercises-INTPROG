@@ -16,12 +16,11 @@
 		<div class="navbar">
                <a href="homepage.htm"><?php echo "Home" ?></a>
                <class="nav"><a href="exercise1.php"><?php echo "Our Team" ?></a>
-               <class="nav"><a href="about.php"><?php echo "About Us" ?></a>
 			   <class="nav"><a href="certif.htm"><?php echo "Certificates" ?></a>
 			   <class="nav"><a href="port.htm"><?php echo "Portfolio" ?></a>
 			   <class="nav"><a href="project.htm"><?php echo "Our Project" ?></a>
-			   <class="nav"><a href="contact.htm"><?php echo "Contact Us" ?></a>
-               <class="nav"><a href="merch.php"><?php echo "Merch" ?></a>
+			   <class="nav"><a href="merch.php"><?php echo "Merch" ?></a>
+			   <class="nav"><a href="contact.php"><?php echo "Contact Us" ?></a>
 		</div>
         
 	</nav>
@@ -121,5 +120,7 @@
 <!-- Footer added via PHP -->
 <footer>Powered by PHP</footer>
 URAAA!!.
+URAAA!!
+URAAA!!
 URAAA!!
 URAAA!!

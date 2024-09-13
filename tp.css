@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #E8D9CD; 
   margin: auto;
@@ -18,13 +21,22 @@ font-size: 17px;
 background-color: #959D90;
 color: #523D35;
 }
+
 hr{
 border: 3px solid #523D35;
 }
+
 .header {
   background-color: #959D90;
-  height: 110px;
   width: 100%;
+  padding: 20px;
+  min-height: 110px;
+}
+
+.header > * {
+  text-align: center; 
+  margin: 0 auto;
+  padding-top: 10px; 
 }
 
 h1 {
@@ -91,6 +103,7 @@ font-family: garamond;
   justify-content: center;
   border-radius: 20px;
 }
+
 .overlay_ko a {
   display: inline-block;
 color: #EFEFE9;
@@ -128,18 +141,27 @@ color: green;
     font-size: 16px;
     margin-top: 0.25em;
 }
+
 .merch{
   max-width: 300px;
   height: 300px;
 }
-input {
-  border-radius: 7px;
-  width:50px;
 
-  padding-left: 50px;
-  padding-top: 5px;
+
+input, textarea {
+  min-height: 2em;
+  border: 1px solid #260D0E;
+  font-size: 14px;
 }
 /*
+input {
+  border-radius: 7px;
+  background-color: #260D0E;
+	padding-left: 50px;
+	padding-top: 5px;
+	color: white;
+}
+
 * - universal selector
 p h1 - element selector
 #id .class - descendant combinator
