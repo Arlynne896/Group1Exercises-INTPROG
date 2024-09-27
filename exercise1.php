@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  
-    <title>Group Exercise #1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
     <link href="tp.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -14,13 +14,13 @@
 	
 	<nav>
 		<div class="navbar">
-               <a href="homepage.htm"><?php echo "Home" ?></a>
+               <a href="home.php"><?php echo "Home" ?></a>
                <class="nav"><a href="exercise1.php"><?php echo "Our Team" ?></a>
 			   <class="nav"><a href="certif.htm"><?php echo "Certificates" ?></a>
 			   <class="nav"><a href="port.htm"><?php echo "Portfolio" ?></a>
 			   <class="nav"><a href="project.htm"><?php echo "Our Project" ?></a>
 			   <class="nav"><a href="merch.php"><?php echo "Merch" ?></a>
-			   <class="nav"><a href="contact.php"><?php echo "Contact Us" ?></a>
+			   <class="nav"><a href="coms/contact.php"><?php echo "Contact Us" ?></a>
 		</div>
         
 	</nav>
@@ -110,7 +110,7 @@
 	<hr>
     
 	<footer>
-		<p style="margin-left:30px;color:#223030;"><small>Made by Abalain, Almaida, Catimbang, Cuano & Morante 2024 © Copyright Intended</small></p>
+		<p style="margin-left:30px;color:#223030;"><small>Made by Abalain, Almaida, Catimbang, Cuaño & Morante 2024 © Copyright Intended</small></p>
 	</footer>
 
     
