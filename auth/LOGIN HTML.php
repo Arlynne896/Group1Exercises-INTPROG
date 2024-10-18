@@ -14,7 +14,7 @@
 </head>
 <body>
 		<div class="login-form">
-				<form id="loginform" method="POST" action="login.php">
+				<form id="loginform" method="POST" action="<?php echo htmlspecialchars('login.php'); ?>">
 					<div id ="error" class="alert alert-danger d-none"></div>
 					<h2 class="text-center">Log in</h2>
 					<div class="form-group">
@@ -31,39 +31,11 @@
 					</div>
 					<div class="clearfix">
 						<label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
-						<a href="#" class="float-right">Forgot Password?</a>
+						<p class="text-center"><a href="signup.php">Create an Account</a></p>
 					</div>        
 				</form>
-			<p class="text-center"><a href="#">Create an Account</a></p>
 		</div>
-	<script>
-		$(function() {
-			$('#loginform').on('submit', function(e){
-				e.preventDefault();
-				
-				let $error = $('#error');
-				
-				$.ajax({
-					type: 'POST',
-					url: 'login.php',
-					data: $(this).serialize()
-				}).then(function(res){
-					let data = JSON.parse(res);
-					
-					if(data.error){
-						$error.removeClass('d-none').html(data.error);
-						return;
-					}
-					
-					localStorage.setItem('token', data.token);
-					location.href = 'profile.php';
-				}).fail(function(res){
-					$error.removeClass('d-none').html('Error attempting to sign in.');
-					
-				})
-			});
-		});
-	</script>
+	<script src="login.js"></script>
 	
 </body>
 </html>
