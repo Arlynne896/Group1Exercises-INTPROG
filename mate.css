@@ -1,0 +1,285 @@
+body, h1, h2, h3, p, ul, li, a, form {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background-color: #AB886D;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+header .logo h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+header nav ul li a:hover {
+    color: #493628;
+}
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    color: #705C53;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    padding: 0 20px;
+}
+.banner .logo-image {
+    position: absolute;
+    top: 20px;
+    left: 20px; 
+    width: 150px; 
+    height: auto; 
+}
+.banner h2 {
+    font-size: 3.5em;
+    margin: 0; 
+}
+.banner p {
+    margin: 20px 0;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+}
+.cta-button {
+    background-color: #705C53;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.cta-button:hover {
+    background-color: #4f3b2f;
+}
+#menu {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+#menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #705C53;
+}
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.menu-item {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+}
+.menu-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.menu-item h3 {
+    font-size: 1.8em;
+    color: #705C53;
+    margin: 15px 0;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.item strong {
+    color: #2c3e50;
+}
+.item span {
+    color: #493628;
+}
+#about {
+    padding: 60px 20px;
+    text-align: center;
+}
+#about h2 {
+    font-size: 2.5em;
+    color: #705C53;
+}
+#about p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-top: 20px;
+}
+#contact {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+#contact h2 {
+    font-size: 2.5em;
+    color: #705C53;
+}
+#contact form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+#contact label {
+    font-size: 1.1em;
+    color: #333;
+}
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+#contact button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#contact button:hover {
+    background-color: #d35400;
+}
+footer {
+    background-color: #AB886D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover {
+    color: #e67e22;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    overflow: auto;
+}
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+}
+.close-btn {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    float: right;
+}
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#orderForm {
+    display: flex;
+    flex-direction: column;
+}
+#orderForm label {
+    margin-bottom: 8px;
+}
+#orderForm input, #orderForm select {
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+#orderForm button {
+    background-color: #705C53;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#orderForm button:hover {
+    background-color: #9e7e68;
+}
+.back-button {
+    padding: 10px 20px;
+    background-color: #493628;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+}
+.back-button::before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid white;
+    margin-right: 8px; 
+}
+.back-button:hover {
+    background-color: #603F26;
+}
